@@ -2,12 +2,13 @@
 
 
 
-nav {
-  background-color: #000080; 
+
+.main.nav {
+  background-color: navy; 
   padding: 0;
 }
 
-nav ul {
+.main.nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -15,14 +16,18 @@ nav ul {
   gap: 20px;
 }
 
-nav ul li {
+.main.nav ul li {
   position: relative;
 }
 
-nav a {
+.main.nav a {
   display: block;
   padding: 12px 15px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+
+.main.nav a:hover {
+  background-color: #000080; 
 }
