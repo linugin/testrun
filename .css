@@ -3,8 +3,11 @@
 
 
 
+/* ==========================
+   Navigation Bar (No Dropdown)
+========================== */
 .main.nav {
-  background-color: navy; 
+  background-color: navy; /* Navy color */
   padding: 0;
 }
 
@@ -20,14 +23,15 @@
   position: relative;
 }
 
-.main.nav a {
+.main.nav a.nav-card {
   display: block;
   padding: 12px 15px;
   color: white;
   text-decoration: none;
   font-weight: bold;
+  border-radius: 4px; /* optional, gives links a “card” feel */
 }
 
-.main.nav a:hover {
-  background-color: #000080; 
+.main.nav a.nav-card:hover {
+  background-color: #000080; /* Slightly darker navy on hover */
 }
