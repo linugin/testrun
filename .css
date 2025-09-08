@@ -1,37 +1,24 @@
 <link rel="stylesheet" href="style.css">
 
-
-
-
 /* ==========================
-   Navigation Bar (No Dropdown)
+   Navigation Bar
 ========================== */
-.main.nav {
-  background-color: navy; /* Navy color */
-  padding: 0;
-}
-
-.main.nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.main-nav {
+  background-color: navy; /* Navy background */
   display: flex;
   gap: 20px;
+  padding: 10px 15px;
 }
 
-.main.nav ul li {
-  position: relative;
-}
-
-.main.nav a.nav-card {
-  display: block;
-  padding: 12px 15px;
+.main-nav a.nav-card {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 4px; /* optional, gives links a “card” feel */
+  padding: 10px 12px;
+  border-radius: 4px; /* Card-like feel */
+  transition: background-color 0.3s ease;
 }
 
-.main.nav a.nav-card:hover {
-  background-color: #000080; /* Slightly darker navy on hover */
+.main-nav a.nav-card:hover {
+  background-color: #000080; /* Darker navy on hover */
 }
